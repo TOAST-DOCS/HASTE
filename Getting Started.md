@@ -3,8 +3,8 @@
 > 샘플 내용은 IntelliJ Community edition 을 기준으로 작성되었습니다.
 
 ## 0. 요구사항
-- **`Haste framework는 JDK 1.7 이상, Maven 3.3.0 이상을 요구합니다.`**
-- **`AES-256 지원을 위해서 JCE(Java Cryptography Extension)을 요구합니다. 반드시 JCE를 설치해주세요`**
+- **Haste framework는 JDK 1.7 이상, Maven 3.3.0 이상을 요구합니다.**
+- **AES-256 지원을 위해서 JCE(Java Cryptography Extension)을 요구합니다. 반드시 JCE를 설치해주세요**
 
 ## 1. 코드 내려받기
 - 아래 Repository에서 소스코드를 내려받습니다.
@@ -41,9 +41,9 @@
 - Haste framework를 사용해서 간단한 Echo 서버를 개발해보면서, 기본적인 사용법을 알아본다.
 
 ## Echo 서버
-- Haste framework를 체크아웃 받으면, `com.nhnent.haste.example.echoserver` 패키지의 `EchoServer` 클래스의 `main` 함수를 통해서 Echo 서버를 실행할 수 있습니다.
+- Haste framework를 체크아웃 받으면, com.nhnent.haste.example.echoserver 패키지의 EchoServer 클래스의 main 함수를 통해서 Echo 서버를 실행할 수 있습니다.
 
-### 1. `GameServerBootstrap`을 통한 서버 설정
+### 1. GameServerBootstrap을 통한 서버 설정
 ```java
 public class EchoServer {
     private static final int PORT = 5056;
@@ -59,8 +59,8 @@ public class EchoServer {
     }
 }
 ```
-### 2. `EchoServerApplication` 에서 `ClientPeer`를 생성하는 코드를 추가합니다. 
-- `ClientPeer`는 클라이언트가 접속할 때 생성되는 Peer 객체입니다.
+### 2. EchoServerApplication 에서 ClientPeer를 생성하는 코드를 추가합니다. 
+- ClientPeer는 클라이언트가 접속할 때 생성되는 Peer 객체입니다.
 ```java
 public class EchoServerApplication extends ServerApplication {
     @Override
@@ -77,8 +77,8 @@ public class EchoServerApplication extends ServerApplication {
     }
 }
 ```
-### 3. 실제 주고받는 데이터인 `EchoMessage` 클래스를 구현합니다. 
-- 데이터는 `MessageBridge`를 상속받아서 구현하면 `FieldParameter` 어노테이션을 이용해서 쉽게 구현할 수 있습니다.
+### 3. 실제 주고받는 데이터인 EchoMessage 클래스를 구현합니다. 
+- 데이터는 MessageBridge를 상속받아서 구현하면 FieldParameter 어노테이션을 이용해서 쉽게 구현할 수 있습니다.
 ```java
 public class EchoMessage extends MessageBridge {
     public static final short MESSAGE = 0;
@@ -91,7 +91,7 @@ public class EchoMessage extends MessageBridge {
     public String message;
 }
 ```
-### 4. 실제 클라이언트와 데이터 송수신을 하는 `EchoPeer` 클래스를 구현합니다.
+### 4. 실제 클라이언트와 데이터 송수신을 하는 EchoPeer 클래스를 구현합니다.
 ```java
 public class EchoPeer extends ClientPeer {
     private static final Logger logger = LoggerFactory.getLogger(EchoPeer.class);
@@ -117,9 +117,9 @@ public class EchoPeer extends ClientPeer {
 ```
 
 ## Echo 클라이언트
-- Haste SDK for .NET를 체크아웃 받으면, `Examples` 폴더의 `Haste.EchoClient` 프로젝트를 통해서 Echo 클라이언트를 실행할 수 있습니다.
+- Haste SDK for .NET를 체크아웃 받으면, Examples 폴더의 Haste.EchoClient 프로젝트를 통해서 Echo 클라이언트를 실행할 수 있습니다.
 
-### 1. `NetworkConnection` 객체 생성 및 설정 객체 만들기
+### 1. NetworkConnection 객체 생성 및 설정 객체 만들기
 ```csharp
 _connection = new NetworkConnection();
 _config = new ConnectionConfig
@@ -135,8 +135,8 @@ _config = new ConnectionConfig
 };
 _connection.Configure(_config);
 ```
-### 2. `NetworkConnection` 객체에 응답 이벤트 등록하기 
-- `ClientPeer`는 클라이언트가 접속할 때 생성되는 Peer 객체입니다.
+### 2. NetworkConnection 객체에 응답 이벤트 등록하기 
+- ClientPeer는 클라이언트가 접속할 때 생성되는 Peer 객체입니다.
 ```csharp
 _connection.ResponseReceived += OnResponseReceived;
 _connection.StatusChanged += OnStatusChanged;
