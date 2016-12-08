@@ -5,7 +5,6 @@ TOAST Haste framework 는 게임서버를 손쉽게 개발할 수 있도록 도�
 
 Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미한다.
 
-[![Englsh](https://img.shields.io/badge/Language-English-red.svg)](README.md)
 
 ## Features
 ### 다양한 QoS, 그리고 멀티플렉싱
@@ -58,7 +57,7 @@ Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미�
 
 ## Contributing
 - Source Code Contributions:
-    - [Contribution Guidelines for TOAST Haste](./CONTRIBUTING.md) 문서를 참조하면 됩니다.
+    - [Contribution Guidelines for TOAST Haste](https://github.com/nhnent/toast-haste.framework/blob/develop/CONTRIBUTING.md) 문서를 참조하면 됩니다.
 
 ## Bug Reporting
 버그를 발견했을때, 리포트하는건 매우 중요합니다. 다른 사람들에게도 도움이 될 수 있도록 발견된 버그를 알려주세요. 
@@ -86,7 +85,7 @@ Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미�
 - 김태경
 
 ## License
-TOAST Haste is licensed under the Apache 2.0 license, see [LICENSE](LICENSE.txt) for details.
+TOAST Haste is licensed under the Apache 2.0 license, see [LICENSE](https://github.com/nhnent/toast-haste.framework/blob/develop/LICENSE.txt) for details.
 ```
 Copyright 2016 NHN Entertainment Corp.
 
