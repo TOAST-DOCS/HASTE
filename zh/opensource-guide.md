@@ -1,6 +1,6 @@
-## Open Source > Toast Haste > Overview
+## Open Source > Toast Haste > 오픈 소스 사용 가이드
 
-# 빌드하기
+## 빌드하기
 
 > 샘플 내용은 IntelliJ Community edition 을 기준으로 작성되었습니다.
 
@@ -39,7 +39,7 @@
 4. "Build, Execution, Deployment" > "Build Tools" > "Maven" 을 선택합니다.
 5. "Maven home directory"에 다운로드 받은 Maven의 경로를 선택합니다.
 
-# Let's Haste
+## Let's Haste
 - Haste framework를 사용해서 간단한 Echo 서버를 개발해보면서, 기본적인 사용법을 알아본다.
 
 ## Echo 서버

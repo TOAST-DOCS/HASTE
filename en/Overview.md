@@ -1,4 +1,4 @@
-## Open Source > Toast Haste > Overview
+## Open Source > Toast Haste > 개요
 
 ![Logo](https://cloud.githubusercontent.com/assets/4951898/21089491/ccdd9672-c07b-11e6-81c2-466374640a25.png)
 ===============
