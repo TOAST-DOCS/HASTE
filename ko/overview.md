@@ -36,10 +36,10 @@ Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미�
     - MAJOR.MINOR.BUILD 형식에 정식배포 전 버전이나 빌드 메타데이터를 위한 라벨을 덧붙이는 방법도 있습니다.
 
 ## Documetation
-- 문서는 [GitHub의 Wiki](https://github.com/nhnent/toast-haste.framework/wiki) 를 참조합니다.
+- 문서는 [GitHub의 Wiki](https://github.com/nhn/toast-haste.framework/wiki) 를 참조합니다.
 
 ## Roadmap
-- NHN Entertainment 에서는 Toast Cloud Real-time Multiplayer(이하 RTM) 를 TOAST Haste를 이용해서 서비스하고 있습니다.
+- NHN 에서는 TOAST Real-time Multiplayer(이하 RTM) 를 TOAST Haste를 이용해서 서비스하고 있습니다.
 - 그래서 아래 로드맵에 따라서 성능을 최적화하고 사용성을 향상시키는 노력을 꾸준히 할 예정입니다.
 
 ### Milestones
@@ -60,7 +60,7 @@ Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미�
 
 ## Contributing
 - Source Code Contributions:
-    - [Contribution Guidelines for TOAST Haste](https://github.com/nhnent/toast-haste.framework/blob/develop/CONTRIBUTING.md) 문서를 참조하면 됩니다.
+    - [Contribution Guidelines for TOAST Haste](https://github.com/nhn/toast-haste.framework/blob/develop/CONTRIBUTING.md) 문서를 참조하면 됩니다.
 
 ## Bug Reporting
 버그를 발견했을때, 리포트하는건 매우 중요합니다. 다른 사람들에게도 도움이 될 수 있도록 발견된 버그를 알려주세요. 
@@ -81,16 +81,16 @@ Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미�
 **Thank you for reporting a bug!**
 
 ## Mailing list
-- dl_haste@nhnent.com
+- dl_haste@nhn.com
 
 ## Contributor
 - 권오범 (Founder)
 - 김태경
 
 ## License
-TOAST Haste is licensed under the Apache 2.0 license, see [LICENSE](https://github.com/nhnent/toast-haste.framework/blob/develop/LICENSE.txt) for details.
+TOAST Haste is licensed under the Apache 2.0 license, see [LICENSE](https://github.com/nhn/toast-haste.framework/blob/develop/LICENSE.txt) for details.
 ```
-Copyright 2016 NHN Entertainment Corp.
+Copyright 2016 NHN Corp.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
