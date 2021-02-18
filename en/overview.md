@@ -1,10 +1,10 @@
-## Open Source > Toast Haste > 개요
+## Open Source > NHN Cloud Haste > 개요
 
 ![Logo](https://cloud.githubusercontent.com/assets/4951898/21089491/ccdd9672-c07b-11e6-81c2-466374640a25.png)
 ===============
 
-## TOAST Haste framework
-TOAST Haste framework 는 게임서버를 손쉽게 개발할 수 있도록 도와주는 비동기 게임 서버 프레임워크 입니다.
+## NHN Cloud Haste framework
+NHN Cloud Haste framework 는 게임서버를 손쉽게 개발할 수 있도록 도와주는 비동기 게임 서버 프레임워크 입니다.
 
 Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미합니다.
 
@@ -28,7 +28,7 @@ Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미�
 - AES-256 암호화를 위해서 JCE(Java Cryptography Extension) 설치가 필요합니다.
 
 ## Versioning
-- TOAST Haste의 버전은 [Semantic Versioning 2.0](http://semver.org/) 을 따릅니다.
+- NHN Cloud Haste의 버전은 [Semantic Versioning 2.0](http://semver.org/) 을 따릅니다.
 - 버전을 MAJOR.MINOR.PATCH 로 표현하며:
     1. 기존 버전과 호환되지 않게 API가 바뀌면 “MAJOR 버전”을 올리고,
     2. 기존 버전과 호환되면서 새로운 기능을 추가할 때는 “MINOR 버전”을 올리고,
@@ -39,7 +39,7 @@ Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미�
 - 문서는 [GitHub의 Wiki](https://github.com/nhn/toast-haste.framework/wiki) 를 참조합니다.
 
 ## Roadmap
-- NHN 에서는 TOAST Real-time Multiplayer(이하 RTM) 를 TOAST Haste를 이용해서 서비스하고 있습니다.
+- NHN 에서는 NHN Cloud Real-time Multiplayer(이하 RTM) 를 NHN Cloud Haste를 이용해서 서비스하고 있습니다.
 - 그래서 아래 로드맵에 따라서 성능을 최적화하고 사용성을 향상시키는 노력을 꾸준히 할 예정입니다.
 
 ### Milestones
@@ -60,7 +60,7 @@ Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미�
 
 ## Contributing
 - Source Code Contributions:
-    - [Contribution Guidelines for TOAST Haste](https://github.com/nhn/toast-haste.framework/blob/develop/CONTRIBUTING.md) 문서를 참조하면 됩니다.
+    - [Contribution Guidelines for NHN Cloud Haste](https://github.com/nhn/toast-haste.framework/blob/develop/CONTRIBUTING.md) 문서를 참조하면 됩니다.
 
 ## Bug Reporting
 버그를 발견했을때, 리포트하는건 매우 중요합니다. 다른 사람들에게도 도움이 될 수 있도록 발견된 버그를 알려주세요. 
@@ -88,7 +88,7 @@ Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미�
 - 김태경
 
 ## License
-TOAST Haste is licensed under the Apache 2.0 license, see [LICENSE](https://github.com/nhn/toast-haste.framework/blob/develop/LICENSE.txt) for details.
+NHN Cloud Haste is licensed under the Apache 2.0 license, see [LICENSE](https://github.com/nhn/toast-haste.framework/blob/develop/LICENSE.txt) for details.
 ```
 Copyright 2016 NHN Corp.
 

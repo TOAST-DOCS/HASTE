@@ -1,4 +1,4 @@
-## Open Source > Toast Haste > Open Source Guide
+## Open Source > NHN Cloud Haste > Open Source Guide
 
 ## 빌드하기
 
@@ -10,7 +10,7 @@
 
 ## 1. 코드 내려받기
 - 아래 Repository에서 소스코드를 내려받습니다.
-- [TOAST Haste framework](https://github.com/nhn/toast-haste.framework)
+- [NHN Cloud Haste framework](https://github.com/nhn/toast-haste.framework)
 
 ## 2. IDE 설치
 - 아래 링크에서 IntelliJ Community Edition을 다운받아서 설치합니다.
