@@ -39,7 +39,7 @@ Haste는 속도를 빠르게 만드는 효과를 가진 가속 마법을 의미�
 - 문서는 [GitHub의 Wiki](https://github.com/nhn/toast-haste.framework/wiki) 를 참조합니다.
 
 ## Roadmap
-- NHN 에서는 NHN Cloud Real-time Multiplayer(이하 RTM) 를 NHN Cloud Haste를 이용해서 서비스하고 있습니다.
+- NHN Cloud 에서는 NHN Cloud Real-time Multiplayer(이하 RTM) 를 NHN Cloud Haste를 이용해서 서비스하고 있습니다.
 - 그래서 아래 로드맵에 따라서 성능을 최적화하고 사용성을 향상시키는 노력을 꾸준히 할 예정입니다.
 
 ### Milestones
